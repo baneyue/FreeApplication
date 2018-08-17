@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!--<layout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--<data>-->
+
+<!--<import--><!--alias="UserBean"--><!--type="com.base.demo.view.bean.UserBean" />-->
+
+<!--<variable--><!--name="userBean"--><!--type="UserBean" />--><!--</data>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/agreement"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="注册" />
+</LinearLayout><!--</layout>-->
+
